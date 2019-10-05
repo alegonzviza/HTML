@@ -1,0 +1,45 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+        color: darkkhaki;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+}
+h2 {
+        color: chocolate;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+}
+
+h3 {
+        color: peru;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+}
+
+h4 {
+        color: olive;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+}
+
+h5 {
+        color: pink;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+}
+
+h6{
+        color: forestgreen;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+}
+
+p {
+        color: lightgreen;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1.5em;
+        border: 2px red dotted;
+        margin: 0;
+}
