@@ -1,137 +1,232 @@
-*{
-    font-family: 'Oswald', sans-serif;
-}
-h1 {
-        color: darkkhaki;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-}
-h2 {
-        color: chocolate;
+* {
         font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-}
-
-h3 {
+    }
+    
+    /* heading  */
+    h1 {
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    h2 { 
+        color:navy;
+        font-family: 'Abril Fatface', cursive;
+    }
+    
+    h3 {
         color: peru;
         font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-}
-
-h4 {
+        font-weight: 700;
+    }
+    
+    h4 {
+        color: lightpink;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h5 {
         color: olive;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-}
-
-h5 {
-        color: pink;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-}
-
-h6{
-        color: forestgreen;
-        font-family: 'Oswald', sans-serif;
-        font-weight: 200;
-}
-
-p {
-        color: lightgreen;
-        font-family: 'Abril Fatface', cursive;
+        
+    }
+    
+    h6 {
+        color: d;
+        font-size: 1.5em;
+        margin: 20px 0;
+    }
+    
+    p {
+        color: black;
         font-size: 1em;
-        border: 2px;
-        line-height: 0.5em;
-        margin:0;
-}
-
-header {
-        background-color: beige;
-        height: 110px;
-        display:flex; 
-        justify-content:space-between;
-}
-
-main{
-        height:530px;
-        background-color: #05a72c;
-}
-
-div {
-        /*border: 1px gray solid; */
-}
-
-
-footer{
-        background-color: #05a72c;
-        height: 850pt;
-}
-
-ul{
+        line-height: 2em;
+    }
+    
+    header {
+        background-color: white;
+        /* height: 110pt; */
+        justify-content: space-between;
+    }
+    
+    main {
+        /* height: 530pt; */
+        padding: 24px;
+        justify-content: space-around;
+        background-color: #05A72C;
+        /* background-color: rgba(5, 167, 44, 0.4); */
+    }
+    div {
+        /* border: 1px red dotted; */
+    }
+    
+    footer {
+        /* height: 850pt; */
+        background-color: #EEE;
+    }
+    .txtCenter {
+        text-align: center;
+    }
+    .txtJustify {
+        text-align: justify;
+    }
+    
+    ul {
         list-style-type: none;
-        margin:0;
-        padding:0;
-}
-
-li {
-        display: inline
-}
-li a{
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+    
+    }
+    
+    li a {
         display: inline-block;
-        padding:4px 8px;
-}
-a{
-        padding: 10px;
-        border: 30px;
-        margin: 30px;
-       
-}
-
-.bkColorGray{
+        padding: 4px 8px;
+    }
+    
+    .headtest {
+        color: black;
+    }
+    
+    .icon-red {
+        color: red;
+    }
+    
+    .bkColorGray {
         background-color: #F7F7F7;
-}
-
-.bkSizeLarge{
-        height: 750pt;
-}
-
-.imgRounded{
+    }
+    .bkSizeLarge {
+        /* height: 750pt; */
+        padding: 24px;
+    }
+    
+    .imgRounded {
         border-radius: 50%;
-        background-image:url("../images/photo-1543332164-6e82f355badc.jpeg");
-        width: 200px;
-        height: 200px;
+        background-image: url("/Users/ale/Desktop/HTML/Images/photo-1543332164-6e82f355badc.jpeg"); 
+        width: 100px;
+        height: 100px;
+        background-color: azure;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        border: 0;
         display: block;
         margin: 0 auto;
-       
-}
+    
+         /* margin-left: auto;
+         margin-right: auto;
+         width: 30%; */  
+    }
+    
+    .logoEvernote {
+        background-image: url("/Users/ale/Desktop/HTML/Images/download.jpeg"); 
+        width: 200px;
+        height: 100px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    button {
+    
+    }
 
-.row {
-        display:flex;
 
-}
 
-.col{
-        /*float: left;*/
-        /* padding: 15px; */
-        /*border: 1px solid green;*/
+    .alignCenter{
+            align-items: center;
+    }
+
+    button{
+            padding:16px;
+            text-transform: uppercase;
+    }
+    
+    .button-outline {
+        display: inline-block;
+        height: 40px;
+        border-radius: 3px;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid green;
+        padding: 0 10px;
+        line-height: 40px;
+        min-width: 120px;
+    }
+    
+    a {
+        /* padding: 10px 50px;
+        padding-top: 50px:
+        margin: 30px;
+        border: 30px; */
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: yellowgreen;
+        text-decoration: underline;
+    }
+    a:active {
+        color: yellow;
+    }
+    
+    
+    
+    
+    .felx{
+            display:felx;
+    }
+    .row {
+        display: flex;
+    
+    }
+    
+    .col {
+        /* float: left; */
+        padding: 16px 48px;
+        /* border: 1px solid green; */
         /* width:30%; */
-        
-}
+    
+    }
+    
+    
+    .col-1 {width: 8.33%;}
+    /* .col-2 {width: 16.66%;} */
+    .col-2 {width: calc(100%/6);}
+    .col-3 {width: 25%;}
+    /* .col-4 {width: 33.33%;} */
+    .col-4 { width: calc(100%/3);}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 
-.col-1 {width:8.33%;}
-.col-2 {width: calc(100%/6);}
-.col-3{width: 25%;}
-.col-4 {width: calc (100%/3);
-        padding:0;
-}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+
+    @media only screem and (min-width:600px) {
+            h1{
+                    color: gray;
+
+            }
+    }
+
+    @media only screen and (min-width: 768px) {
+            h1{
+                    color:fuchsia;
+
+            }
+
+    }
+
+
+    
